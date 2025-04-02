@@ -1,0 +1,45 @@
+{
+  "name": "HeadsOrTails",
+  "desc": "",
+  "methods": [
+    {
+      "name": "createGame",
+      "args": [
+        {
+          "name": "boxFeeTxn",
+          "type": "pay"
+        },
+        {
+          "name": "pk",
+          "type": "byte[32]"
+        },
+        {
+          "name": "heads",
+          "type": "bool"
+        }
+      ],
+      "returns": {
+        "type": "uint64"
+      }
+    },
+    {
+      "name": "completeGame",
+      "args": [
+        {
+          "name": "proof",
+          "type": "byte[80]"
+        }
+      ],
+      "returns": {
+        "type": "bool"
+      }
+    },
+    {
+      "name": "createApplication",
+      "args": [],
+      "returns": {
+        "type": "void"
+      }
+    }
+  ]
+}

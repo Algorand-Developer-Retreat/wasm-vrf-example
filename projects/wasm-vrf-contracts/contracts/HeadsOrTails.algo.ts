@@ -53,7 +53,7 @@ export class HeadsOrTails extends Contract {
    * @returns boolean if the user won or not
    *
    */
-  public completeGame(proof: bytes<80>): boolean {
+  completeGame(proof: bytes<80>): boolean {
     const game: HeadsOrTailsGame = this.game(this.txn.sender).value;
 
     // get block seed
@@ -85,5 +85,27 @@ export class HeadsOrTails extends Contract {
     this.game(this.txn.sender).delete();
 
     return won;
+  }
+
+  /**
+   *
+   * Cancels a game and refunds the user their box storage fees
+   *
+   */
+  cancelGame(): void {
+    const game = this.game(this.txn.sender).value;
+
+    assert(game.commitmentRound <= this.txn.lastValid - 1002);
+
+    // send user back the box storage cost
+    sendPayment({
+      receiver: this.txn.sender,
+      amount: BOX_STORAGE_COST,
+      fee: 0,
+      note: 'box storage cost refund',
+    });
+
+    // delete the game from storage
+    this.game(this.txn.sender).delete();
   }
 }

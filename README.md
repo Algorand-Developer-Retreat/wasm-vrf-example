@@ -21,14 +21,14 @@ There should be some investigation into alternative methods for the benefit of t
 ## Project Structure
 
 [projects/wasm-vrf-contracts](./projects/wasm-vrf-contracts/README.md) - Demo TEALScript contract that allows a user to predict the result of a coin flip.
+[projects/wasm-vrf-frontend](./projects/wasm-vrf-frontend) - Demo React application that interacts with the contract
 
 ## TODO
 
 - [ ] Smart contract tests
-- [ ] Front-end react demo
 - [ ] Further documentation
 - [ ] Fix smart contract code, it is lacking security and validation
-- [ ] ...
+- [ ] Make the UI not terrible on the React app 😭
 
 ## Credits
 

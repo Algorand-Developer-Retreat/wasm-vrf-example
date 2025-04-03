@@ -39,58 +39,16 @@
       21,
       22,
       23,
-      24
-    ]
-  },
-  {
-    "teal": 15,
-    "source": "contracts/HeadsOrTails.algo.ts:14",
-    "pc": [
+      24,
       25,
-      26
-    ]
-  },
-  {
-    "teal": 16,
-    "source": "contracts/HeadsOrTails.algo.ts:14",
-    "pc": [
-      27
-    ]
-  },
-  {
-    "teal": 17,
-    "source": "contracts/HeadsOrTails.algo.ts:14",
-    "pc": [
+      26,
+      27,
       28,
-      29
-    ]
-  },
-  {
-    "teal": 18,
-    "source": "contracts/HeadsOrTails.algo.ts:14",
-    "pc": [
-      30
-    ]
-  },
-  {
-    "teal": 19,
-    "source": "contracts/HeadsOrTails.algo.ts:14",
-    "pc": [
+      29,
+      30,
       31,
-      32
-    ]
-  },
-  {
-    "teal": 20,
-    "source": "contracts/HeadsOrTails.algo.ts:14",
-    "pc": [
-      33
-    ]
-  },
-  {
-    "teal": 21,
-    "source": "contracts/HeadsOrTails.algo.ts:14",
-    "pc": [
+      32,
+      33,
       34,
       35,
       36,
@@ -105,18 +63,84 @@
       45,
       46,
       47,
-      48,
+      48
+    ]
+  },
+  {
+    "teal": 15,
+    "source": "contracts/HeadsOrTails.algo.ts:14",
+    "pc": [
       49,
-      50,
-      51,
+      50
+    ]
+  },
+  {
+    "teal": 16,
+    "source": "contracts/HeadsOrTails.algo.ts:14",
+    "pc": [
+      51
+    ]
+  },
+  {
+    "teal": 17,
+    "source": "contracts/HeadsOrTails.algo.ts:14",
+    "pc": [
       52,
-      53,
-      54,
+      53
+    ]
+  },
+  {
+    "teal": 18,
+    "source": "contracts/HeadsOrTails.algo.ts:14",
+    "pc": [
+      54
+    ]
+  },
+  {
+    "teal": 19,
+    "source": "contracts/HeadsOrTails.algo.ts:14",
+    "pc": [
       55,
-      56,
-      57,
+      56
+    ]
+  },
+  {
+    "teal": 20,
+    "source": "contracts/HeadsOrTails.algo.ts:14",
+    "pc": [
+      57
+    ]
+  },
+  {
+    "teal": 21,
+    "source": "contracts/HeadsOrTails.algo.ts:14",
+    "pc": [
       58,
-      59
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83
     ]
   },
   {
@@ -124,853 +148,739 @@
     "source": "contracts/HeadsOrTails.algo.ts:14",
     "errorMessage": "The requested action is not implemented in this contract. Are you using the correct OnComplete? Did you set your app ID?",
     "pc": [
-      60
-    ]
-  },
-  {
-    "teal": 30,
-    "source": "contracts/HeadsOrTails.algo.ts:18",
-    "pc": [
-      61
-    ]
-  },
-  {
-    "teal": 33,
-    "source": "contracts/HeadsOrTails.algo.ts:18",
-    "pc": [
-      62,
-      63,
-      64
-    ]
-  },
-  {
-    "teal": 34,
-    "source": "contracts/HeadsOrTails.algo.ts:18",
-    "pc": [
-      65
-    ]
-  },
-  {
-    "teal": 35,
-    "source": "contracts/HeadsOrTails.algo.ts:18",
-    "pc": [
-      66
-    ]
-  },
-  {
-    "teal": 36,
-    "source": "contracts/HeadsOrTails.algo.ts:18",
-    "pc": [
-      67
-    ]
-  },
-  {
-    "teal": 37,
-    "source": "contracts/HeadsOrTails.algo.ts:18",
-    "pc": [
-      68
-    ]
-  },
-  {
-    "teal": 40,
-    "source": "contracts/HeadsOrTails.algo.ts:18",
-    "errorMessage": "argument 0 (heads) for createGame must be a bool",
-    "pc": [
-      69
-    ]
-  },
-  {
-    "teal": 41,
-    "source": "contracts/HeadsOrTails.algo.ts:18",
-    "pc": [
-      70
-    ]
-  },
-  {
-    "teal": 42,
-    "source": "contracts/HeadsOrTails.algo.ts:18",
-    "pc": [
-      71
-    ]
-  },
-  {
-    "teal": 45,
-    "source": "contracts/HeadsOrTails.algo.ts:18",
-    "pc": [
-      72,
-      73,
-      74
-    ]
-  },
-  {
-    "teal": 46,
-    "source": "contracts/HeadsOrTails.algo.ts:18",
-    "pc": [
-      75
-    ]
-  },
-  {
-    "teal": 47,
-    "source": "contracts/HeadsOrTails.algo.ts:18",
-    "pc": [
-      76
-    ]
-  },
-  {
-    "teal": 48,
-    "source": "contracts/HeadsOrTails.algo.ts:18",
-    "pc": [
-      77,
-      78
-    ]
-  },
-  {
-    "teal": 49,
-    "source": "contracts/HeadsOrTails.algo.ts:18",
-    "pc": [
-      79
-    ]
-  },
-  {
-    "teal": 52,
-    "source": "contracts/HeadsOrTails.algo.ts:18",
-    "errorMessage": "argument 1 (pk) for createGame must be a byte[32]",
-    "pc": [
-      80
-    ]
-  },
-  {
-    "teal": 55,
-    "source": "contracts/HeadsOrTails.algo.ts:18",
-    "pc": [
-      81,
-      82
-    ]
-  },
-  {
-    "teal": 56,
-    "source": "contracts/HeadsOrTails.algo.ts:18",
-    "pc": [
-      83
-    ]
-  },
-  {
-    "teal": 57,
-    "source": "contracts/HeadsOrTails.algo.ts:18",
-    "pc": [
       84
     ]
   },
   {
-    "teal": 58,
-    "source": "contracts/HeadsOrTails.algo.ts:18",
+    "teal": 30,
+    "source": "contracts/HeadsOrTails.algo.ts:27",
     "pc": [
       85
     ]
   },
   {
-    "teal": 59,
-    "source": "contracts/HeadsOrTails.algo.ts:18",
+    "teal": 33,
+    "source": "contracts/HeadsOrTails.algo.ts:27",
     "pc": [
       86,
-      87
-    ]
-  },
-  {
-    "teal": 60,
-    "source": "contracts/HeadsOrTails.algo.ts:18",
-    "pc": [
+      87,
       88
     ]
   },
   {
-    "teal": 61,
-    "source": "contracts/HeadsOrTails.algo.ts:18",
+    "teal": 34,
+    "source": "contracts/HeadsOrTails.algo.ts:27",
     "pc": [
       89
     ]
   },
   {
-    "teal": 64,
-    "source": "contracts/HeadsOrTails.algo.ts:18",
-    "errorMessage": "argument 2 (boxFeeTxn) for createGame must be a pay transaction",
+    "teal": 35,
+    "source": "contracts/HeadsOrTails.algo.ts:27",
     "pc": [
       90
     ]
   },
   {
-    "teal": 67,
-    "source": "contracts/HeadsOrTails.algo.ts:18",
+    "teal": 36,
+    "source": "contracts/HeadsOrTails.algo.ts:27",
     "pc": [
-      91,
-      92,
+      91
+    ]
+  },
+  {
+    "teal": 37,
+    "source": "contracts/HeadsOrTails.algo.ts:27",
+    "pc": [
+      92
+    ]
+  },
+  {
+    "teal": 40,
+    "source": "contracts/HeadsOrTails.algo.ts:27",
+    "errorMessage": "argument 0 (heads) for createGame must be a bool",
+    "pc": [
       93
     ]
   },
   {
-    "teal": 68,
-    "source": "contracts/HeadsOrTails.algo.ts:18",
+    "teal": 41,
+    "source": "contracts/HeadsOrTails.algo.ts:27",
     "pc": [
       94
     ]
   },
   {
-    "teal": 69,
-    "source": "contracts/HeadsOrTails.algo.ts:18",
+    "teal": 42,
+    "source": "contracts/HeadsOrTails.algo.ts:27",
     "pc": [
       95
     ]
   },
   {
-    "teal": 70,
-    "source": "contracts/HeadsOrTails.algo.ts:18",
+    "teal": 45,
+    "source": "contracts/HeadsOrTails.algo.ts:27",
     "pc": [
-      96
-    ]
-  },
-  {
-    "teal": 71,
-    "source": "contracts/HeadsOrTails.algo.ts:18",
-    "pc": [
-      97
-    ]
-  },
-  {
-    "teal": 72,
-    "source": "contracts/HeadsOrTails.algo.ts:18",
-    "pc": [
+      96,
+      97,
       98
     ]
   },
   {
-    "teal": 76,
-    "source": "contracts/HeadsOrTails.algo.ts:18",
+    "teal": 46,
+    "source": "contracts/HeadsOrTails.algo.ts:27",
     "pc": [
-      99,
-      100,
-      101
+      99
     ]
   },
   {
-    "teal": 79,
-    "source": "contracts/HeadsOrTails.algo.ts:18",
+    "teal": 47,
+    "source": "contracts/HeadsOrTails.algo.ts:27",
     "pc": [
+      100
+    ]
+  },
+  {
+    "teal": 48,
+    "source": "contracts/HeadsOrTails.algo.ts:27",
+    "pc": [
+      101,
       102
     ]
   },
   {
-    "teal": 83,
-    "source": "contracts/HeadsOrTails.algo.ts:19",
+    "teal": 49,
+    "source": "contracts/HeadsOrTails.algo.ts:27",
     "pc": [
-      103,
+      103
+    ]
+  },
+  {
+    "teal": 52,
+    "source": "contracts/HeadsOrTails.algo.ts:27",
+    "errorMessage": "argument 1 (pk) for createGame must be a byte[32]",
+    "pc": [
       104
     ]
   },
   {
-    "teal": 84,
-    "source": "contracts/HeadsOrTails.algo.ts:19",
+    "teal": 55,
+    "source": "contracts/HeadsOrTails.algo.ts:27",
     "pc": [
-      105
-    ]
-  },
-  {
-    "teal": 85,
-    "source": "contracts/HeadsOrTails.algo.ts:19",
-    "pc": [
+      105,
       106
     ]
   },
   {
-    "teal": 86,
-    "source": "contracts/HeadsOrTails.algo.ts:19",
+    "teal": 56,
+    "source": "contracts/HeadsOrTails.algo.ts:27",
     "pc": [
       107
     ]
   },
   {
-    "teal": 87,
-    "source": "contracts/HeadsOrTails.algo.ts:19",
+    "teal": 57,
+    "source": "contracts/HeadsOrTails.algo.ts:27",
     "pc": [
       108
     ]
   },
   {
-    "teal": 90,
-    "source": "contracts/HeadsOrTails.algo.ts:19",
-    "errorMessage": "must not have a game in progress",
+    "teal": 58,
+    "source": "contracts/HeadsOrTails.algo.ts:27",
     "pc": [
       109
     ]
   },
   {
-    "teal": 100,
-    "source": "contracts/HeadsOrTails.algo.ts:22",
+    "teal": 59,
+    "source": "contracts/HeadsOrTails.algo.ts:27",
     "pc": [
       110,
       111
     ]
   },
   {
-    "teal": 101,
-    "source": "contracts/HeadsOrTails.algo.ts:23",
+    "teal": 60,
+    "source": "contracts/HeadsOrTails.algo.ts:27",
     "pc": [
-      112,
+      112
+    ]
+  },
+  {
+    "teal": 61,
+    "source": "contracts/HeadsOrTails.algo.ts:27",
+    "pc": [
       113
     ]
   },
   {
-    "teal": 102,
-    "source": "contracts/HeadsOrTails.algo.ts:23",
+    "teal": 64,
+    "source": "contracts/HeadsOrTails.algo.ts:27",
+    "errorMessage": "argument 2 (boxFeeTxn) for createGame must be a pay transaction",
     "pc": [
-      114,
-      115
+      114
     ]
   },
   {
-    "teal": 103,
-    "source": "contracts/HeadsOrTails.algo.ts:23",
+    "teal": 67,
+    "source": "contracts/HeadsOrTails.algo.ts:27",
     "pc": [
-      116
-    ]
-  },
-  {
-    "teal": 106,
-    "source": "contracts/HeadsOrTails.algo.ts:23",
-    "errorMessage": "transaction verification failed: {\"txn\":\"boxFeeTxn\",\"field\":\"receiver\",\"expected\":\"this.app.address\"}",
-    "pc": [
+      115,
+      116,
       117
     ]
   },
   {
-    "teal": 109,
-    "source": "contracts/HeadsOrTails.algo.ts:22",
+    "teal": 68,
+    "source": "contracts/HeadsOrTails.algo.ts:27",
     "pc": [
-      118,
+      118
+    ]
+  },
+  {
+    "teal": 69,
+    "source": "contracts/HeadsOrTails.algo.ts:27",
+    "pc": [
       119
     ]
   },
   {
-    "teal": 110,
-    "source": "contracts/HeadsOrTails.algo.ts:24",
+    "teal": 70,
+    "source": "contracts/HeadsOrTails.algo.ts:27",
     "pc": [
-      120,
+      120
+    ]
+  },
+  {
+    "teal": 71,
+    "source": "contracts/HeadsOrTails.algo.ts:27",
+    "pc": [
       121
     ]
   },
   {
-    "teal": 111,
-    "source": "contracts/HeadsOrTails.algo.ts:4",
+    "teal": 72,
+    "source": "contracts/HeadsOrTails.algo.ts:27",
     "pc": [
       122
     ]
   },
   {
-    "teal": 112,
-    "source": "contracts/HeadsOrTails.algo.ts:25",
+    "teal": 83,
+    "source": "contracts/HeadsOrTails.algo.ts:27",
     "pc": [
-      123
+      123,
+      124,
+      125
     ]
   },
   {
-    "teal": 115,
-    "source": "contracts/HeadsOrTails.algo.ts:25",
-    "errorMessage": "transaction verification failed: {\"txn\":\"boxFeeTxn\",\"field\":\"amount\",\"condition\":\"greaterThanEqualTo\",\"expected\":\">=BOX_STORAGE_COST\"}",
+    "teal": 86,
+    "source": "contracts/HeadsOrTails.algo.ts:27",
     "pc": [
-      124
-    ]
-  },
-  {
-    "teal": 119,
-    "source": "contracts/HeadsOrTails.algo.ts:29",
-    "pc": [
-      125,
       126
     ]
   },
   {
-    "teal": 120,
-    "source": "contracts/HeadsOrTails.algo.ts:6",
+    "teal": 90,
+    "source": "contracts/HeadsOrTails.algo.ts:28",
     "pc": [
       127,
       128
     ]
   },
   {
-    "teal": 121,
-    "source": "contracts/HeadsOrTails.algo.ts:29",
+    "teal": 91,
+    "source": "contracts/HeadsOrTails.algo.ts:28",
     "pc": [
       129
     ]
   },
   {
-    "teal": 122,
-    "source": "contracts/HeadsOrTails.algo.ts:29",
+    "teal": 92,
+    "source": "contracts/HeadsOrTails.algo.ts:28",
     "pc": [
-      130,
+      130
+    ]
+  },
+  {
+    "teal": 93,
+    "source": "contracts/HeadsOrTails.algo.ts:28",
+    "pc": [
       131
     ]
   },
   {
-    "teal": 130,
-    "source": "contracts/HeadsOrTails.algo.ts:31",
+    "teal": 94,
+    "source": "contracts/HeadsOrTails.algo.ts:28",
     "pc": [
-      132,
+      132
+    ]
+  },
+  {
+    "teal": 97,
+    "source": "contracts/HeadsOrTails.algo.ts:28",
+    "errorMessage": "must not have a game in progress",
+    "pc": [
       133
     ]
   },
   {
-    "teal": 131,
-    "source": "contracts/HeadsOrTails.algo.ts:32",
+    "teal": 107,
+    "source": "contracts/HeadsOrTails.algo.ts:31",
     "pc": [
       134,
       135
     ]
   },
   {
-    "teal": 132,
-    "source": "contracts/HeadsOrTails.algo.ts:33",
+    "teal": 108,
+    "source": "contracts/HeadsOrTails.algo.ts:32",
     "pc": [
-      136
-    ]
-  },
-  {
-    "teal": 133,
-    "source": "contracts/HeadsOrTails.algo.ts:33",
-    "pc": [
+      136,
       137
     ]
   },
   {
-    "teal": 134,
-    "source": "contracts/HeadsOrTails.algo.ts:33",
+    "teal": 109,
+    "source": "contracts/HeadsOrTails.algo.ts:32",
     "pc": [
       138,
       139
     ]
   },
   {
-    "teal": 135,
-    "source": "contracts/HeadsOrTails.algo.ts:33",
+    "teal": 110,
+    "source": "contracts/HeadsOrTails.algo.ts:32",
     "pc": [
       140
     ]
   },
   {
-    "teal": 136,
-    "source": "contracts/HeadsOrTails.algo.ts:34",
+    "teal": 113,
+    "source": "contracts/HeadsOrTails.algo.ts:32",
+    "errorMessage": "transaction verification failed: {\"txn\":\"boxFeeTxn\",\"field\":\"receiver\",\"expected\":\"this.app.address\"}",
     "pc": [
       141
     ]
   },
   {
-    "teal": 137,
-    "source": "contracts/HeadsOrTails.algo.ts:34",
+    "teal": 116,
+    "source": "contracts/HeadsOrTails.algo.ts:31",
     "pc": [
       142,
       143
     ]
   },
   {
-    "teal": 138,
-    "source": "contracts/HeadsOrTails.algo.ts:34",
+    "teal": 117,
+    "source": "contracts/HeadsOrTails.algo.ts:33",
     "pc": [
-      144
-    ]
-  },
-  {
-    "teal": 139,
-    "source": "contracts/HeadsOrTails.algo.ts:34",
-    "pc": [
+      144,
       145
     ]
   },
   {
-    "teal": 140,
-    "source": "contracts/HeadsOrTails.algo.ts:31",
+    "teal": 118,
+    "source": "contracts/HeadsOrTails.algo.ts:4",
     "pc": [
       146
     ]
   },
   {
-    "teal": 144,
-    "source": "contracts/HeadsOrTails.algo.ts:37",
+    "teal": 119,
+    "source": "contracts/HeadsOrTails.algo.ts:34",
     "pc": [
-      147,
+      147
+    ]
+  },
+  {
+    "teal": 122,
+    "source": "contracts/HeadsOrTails.algo.ts:34",
+    "errorMessage": "transaction verification failed: {\"txn\":\"boxFeeTxn\",\"field\":\"amount\",\"condition\":\"greaterThanEqualTo\",\"expected\":\">=BOX_STORAGE_COST\"}",
+    "pc": [
       148
     ]
   },
   {
-    "teal": 147,
-    "source": "contracts/HeadsOrTails.algo.ts:18",
+    "teal": 126,
+    "source": "contracts/HeadsOrTails.algo.ts:38",
     "pc": [
       149,
       150
     ]
   },
   {
-    "teal": 148,
-    "source": "contracts/HeadsOrTails.algo.ts:18",
+    "teal": 127,
+    "source": "contracts/HeadsOrTails.algo.ts:6",
     "pc": [
-      151
-    ]
-  },
-  {
-    "teal": 153,
-    "source": "contracts/HeadsOrTails.algo.ts:40",
-    "pc": [
+      151,
       152
     ]
   },
   {
-    "teal": 156,
-    "source": "contracts/HeadsOrTails.algo.ts:40",
+    "teal": 128,
+    "source": "contracts/HeadsOrTails.algo.ts:38",
     "pc": [
-      153,
+      153
+    ]
+  },
+  {
+    "teal": 129,
+    "source": "contracts/HeadsOrTails.algo.ts:38",
+    "pc": [
       154,
       155
     ]
   },
   {
-    "teal": 157,
+    "teal": 137,
     "source": "contracts/HeadsOrTails.algo.ts:40",
     "pc": [
-      156
-    ]
-  },
-  {
-    "teal": 158,
-    "source": "contracts/HeadsOrTails.algo.ts:40",
-    "pc": [
+      156,
       157
     ]
   },
   {
-    "teal": 159,
-    "source": "contracts/HeadsOrTails.algo.ts:40",
+    "teal": 138,
+    "source": "contracts/HeadsOrTails.algo.ts:41",
     "pc": [
       158,
       159
     ]
   },
   {
-    "teal": 160,
-    "source": "contracts/HeadsOrTails.algo.ts:40",
+    "teal": 139,
+    "source": "contracts/HeadsOrTails.algo.ts:42",
     "pc": [
-      160
-    ]
-  },
-  {
-    "teal": 163,
-    "source": "contracts/HeadsOrTails.algo.ts:40",
-    "errorMessage": "argument 0 (proof) for completeGame must be a byte[80]",
-    "pc": [
+      160,
       161
     ]
   },
   {
-    "teal": 166,
-    "source": "contracts/HeadsOrTails.algo.ts:40",
+    "teal": 140,
+    "source": "contracts/HeadsOrTails.algo.ts:42",
     "pc": [
-      162,
+      162
+    ]
+  },
+  {
+    "teal": 141,
+    "source": "contracts/HeadsOrTails.algo.ts:42",
+    "pc": [
       163,
       164
     ]
   },
   {
-    "teal": 167,
-    "source": "contracts/HeadsOrTails.algo.ts:40",
+    "teal": 142,
+    "source": "contracts/HeadsOrTails.algo.ts:42",
     "pc": [
       165
     ]
   },
   {
-    "teal": 168,
-    "source": "contracts/HeadsOrTails.algo.ts:40",
+    "teal": 143,
+    "source": "contracts/HeadsOrTails.algo.ts:43",
     "pc": [
       166
     ]
   },
   {
-    "teal": 169,
-    "source": "contracts/HeadsOrTails.algo.ts:40",
+    "teal": 144,
+    "source": "contracts/HeadsOrTails.algo.ts:43",
     "pc": [
       167,
       168
     ]
   },
   {
-    "teal": 170,
-    "source": "contracts/HeadsOrTails.algo.ts:40",
+    "teal": 145,
+    "source": "contracts/HeadsOrTails.algo.ts:43",
     "pc": [
       169
     ]
   },
   {
-    "teal": 171,
-    "source": "contracts/HeadsOrTails.algo.ts:40",
+    "teal": 146,
+    "source": "contracts/HeadsOrTails.algo.ts:43",
     "pc": [
       170
     ]
   },
   {
-    "teal": 172,
+    "teal": 147,
     "source": "contracts/HeadsOrTails.algo.ts:40",
     "pc": [
       171
     ]
   },
   {
-    "teal": 173,
-    "source": "contracts/HeadsOrTails.algo.ts:40",
+    "teal": 151,
+    "source": "contracts/HeadsOrTails.algo.ts:46",
     "pc": [
-      172
-    ]
-  },
-  {
-    "teal": 174,
-    "source": "contracts/HeadsOrTails.algo.ts:40",
-    "pc": [
+      172,
       173
     ]
   },
   {
-    "teal": 178,
-    "source": "contracts/HeadsOrTails.algo.ts:40",
+    "teal": 154,
+    "source": "contracts/HeadsOrTails.algo.ts:27",
     "pc": [
       174,
-      175,
+      175
+    ]
+  },
+  {
+    "teal": 155,
+    "source": "contracts/HeadsOrTails.algo.ts:27",
+    "pc": [
       176
     ]
   },
   {
-    "teal": 181,
-    "source": "contracts/HeadsOrTails.algo.ts:40",
+    "teal": 160,
+    "source": "contracts/HeadsOrTails.algo.ts:56",
     "pc": [
       177
     ]
   },
   {
-    "teal": 182,
-    "source": "contracts/HeadsOrTails.algo.ts:40",
+    "teal": 163,
+    "source": "contracts/HeadsOrTails.algo.ts:56",
     "pc": [
       178,
-      179
+      179,
+      180
     ]
   },
   {
-    "teal": 186,
-    "source": "contracts/HeadsOrTails.algo.ts:41",
+    "teal": 164,
+    "source": "contracts/HeadsOrTails.algo.ts:56",
     "pc": [
-      180,
       181
     ]
   },
   {
-    "teal": 187,
-    "source": "contracts/HeadsOrTails.algo.ts:41",
+    "teal": 165,
+    "source": "contracts/HeadsOrTails.algo.ts:56",
     "pc": [
-      182,
-      183
+      182
     ]
   },
   {
-    "teal": 191,
-    "source": "contracts/HeadsOrTails.algo.ts:41",
+    "teal": 166,
+    "source": "contracts/HeadsOrTails.algo.ts:56",
     "pc": [
-      184,
+      183,
+      184
+    ]
+  },
+  {
+    "teal": 167,
+    "source": "contracts/HeadsOrTails.algo.ts:56",
+    "pc": [
       185
     ]
   },
   {
-    "teal": 192,
-    "source": "contracts/HeadsOrTails.algo.ts:41",
+    "teal": 170,
+    "source": "contracts/HeadsOrTails.algo.ts:56",
+    "errorMessage": "argument 0 (proof) for completeGame must be a byte[80]",
     "pc": [
       186
     ]
   },
   {
-    "teal": 195,
-    "source": "contracts/HeadsOrTails.algo.ts:41",
-    "errorMessage": "box value does not exist: this.game(this.txn.sender).value",
+    "teal": 173,
+    "source": "contracts/HeadsOrTails.algo.ts:56",
     "pc": [
-      187
-    ]
-  },
-  {
-    "teal": 196,
-    "source": "contracts/HeadsOrTails.algo.ts:44",
-    "pc": [
+      187,
       188,
       189
     ]
   },
   {
-    "teal": 197,
-    "source": "contracts/HeadsOrTails.algo.ts:44",
+    "teal": 174,
+    "source": "contracts/HeadsOrTails.algo.ts:56",
     "pc": [
       190,
       191
     ]
   },
   {
-    "teal": 198,
-    "source": "contracts/HeadsOrTails.algo.ts:44",
+    "teal": 175,
+    "source": "contracts/HeadsOrTails.algo.ts:56",
     "pc": [
-      192,
+      192
+    ]
+  },
+  {
+    "teal": 176,
+    "source": "contracts/HeadsOrTails.algo.ts:56",
+    "pc": [
       193,
       194
     ]
   },
   {
-    "teal": 199,
-    "source": "contracts/HeadsOrTails.algo.ts:44",
+    "teal": 177,
+    "source": "contracts/HeadsOrTails.algo.ts:56",
     "pc": [
       195
     ]
   },
   {
-    "teal": 200,
-    "source": "contracts/HeadsOrTails.algo.ts:44",
+    "teal": 178,
+    "source": "contracts/HeadsOrTails.algo.ts:56",
     "pc": [
-      196,
+      196
+    ]
+  },
+  {
+    "teal": 179,
+    "source": "contracts/HeadsOrTails.algo.ts:56",
+    "pc": [
       197
     ]
   },
   {
-    "teal": 201,
-    "source": "contracts/HeadsOrTails.algo.ts:44",
+    "teal": 180,
+    "source": "contracts/HeadsOrTails.algo.ts:56",
     "pc": [
-      198,
+      198
+    ]
+  },
+  {
+    "teal": 181,
+    "source": "contracts/HeadsOrTails.algo.ts:56",
+    "pc": [
       199
     ]
   },
   {
-    "teal": 208,
-    "source": "contracts/HeadsOrTails.algo.ts:47",
+    "teal": 190,
+    "source": "contracts/HeadsOrTails.algo.ts:56",
     "pc": [
       200,
-      201
+      201,
+      202
     ]
   },
   {
-    "teal": 209,
-    "source": "contracts/HeadsOrTails.algo.ts:47",
+    "teal": 193,
+    "source": "contracts/HeadsOrTails.algo.ts:56",
     "pc": [
-      202,
-      203,
-      204
+      203
     ]
   },
   {
-    "teal": 210,
-    "source": "contracts/HeadsOrTails.algo.ts:47",
+    "teal": 194,
+    "source": "contracts/HeadsOrTails.algo.ts:56",
     "pc": [
+      204,
       205
     ]
   },
   {
-    "teal": 211,
-    "source": "contracts/HeadsOrTails.algo.ts:47",
+    "teal": 198,
+    "source": "contracts/HeadsOrTails.algo.ts:57",
     "pc": [
       206,
-      207,
-      208
+      207
     ]
   },
   {
-    "teal": 215,
-    "source": "contracts/HeadsOrTails.algo.ts:48",
+    "teal": 199,
+    "source": "contracts/HeadsOrTails.algo.ts:57",
     "pc": [
+      208,
       209
     ]
   },
   {
-    "teal": 216,
-    "source": "contracts/HeadsOrTails.algo.ts:48",
+    "teal": 203,
+    "source": "contracts/HeadsOrTails.algo.ts:57",
     "pc": [
       210,
       211
     ]
   },
   {
-    "teal": 217,
-    "source": "contracts/HeadsOrTails.algo.ts:48",
+    "teal": 204,
+    "source": "contracts/HeadsOrTails.algo.ts:57",
     "pc": [
-      212,
+      212
+    ]
+  },
+  {
+    "teal": 207,
+    "source": "contracts/HeadsOrTails.algo.ts:57",
+    "errorMessage": "box value does not exist: this.game(this.txn.sender).value",
+    "pc": [
       213
     ]
   },
   {
-    "teal": 218,
-    "source": "contracts/HeadsOrTails.algo.ts:48",
+    "teal": 208,
+    "source": "contracts/HeadsOrTails.algo.ts:60",
     "pc": [
-      214
+      214,
+      215
     ]
   },
   {
-    "teal": 219,
-    "source": "contracts/HeadsOrTails.algo.ts:48",
+    "teal": 209,
+    "source": "contracts/HeadsOrTails.algo.ts:60",
     "pc": [
-      215,
-      216
-    ]
-  },
-  {
-    "teal": 220,
-    "source": "contracts/HeadsOrTails.algo.ts:48",
-    "pc": [
+      216,
       217
     ]
   },
   {
-    "teal": 221,
-    "source": "contracts/HeadsOrTails.algo.ts:48",
+    "teal": 210,
+    "source": "contracts/HeadsOrTails.algo.ts:60",
     "pc": [
-      218
-    ]
-  },
-  {
-    "teal": 222,
-    "source": "contracts/HeadsOrTails.algo.ts:48",
-    "pc": [
+      218,
       219,
       220
     ]
   },
   {
-    "teal": 223,
-    "source": "contracts/HeadsOrTails.algo.ts:48",
+    "teal": 211,
+    "source": "contracts/HeadsOrTails.algo.ts:60",
     "pc": [
-      221,
-      222
+      221
     ]
   },
   {
-    "teal": 224,
-    "source": "contracts/HeadsOrTails.algo.ts:48",
+    "teal": 212,
+    "source": "contracts/HeadsOrTails.algo.ts:60",
     "pc": [
-      223,
-      224
+      222,
+      223
     ]
   },
   {
-    "teal": 225,
-    "source": "contracts/HeadsOrTails.algo.ts:48",
+    "teal": 213,
+    "source": "contracts/HeadsOrTails.algo.ts:60",
     "pc": [
-      225,
-      226
+      224,
+      225
     ]
   },
   {
-    "teal": 226,
-    "source": "contracts/HeadsOrTails.algo.ts:48",
+    "teal": 220,
+    "source": "contracts/HeadsOrTails.algo.ts:63",
     "pc": [
+      226,
       227
     ]
   },
   {
-    "teal": 227,
-    "source": "contracts/HeadsOrTails.algo.ts:47",
+    "teal": 221,
+    "source": "contracts/HeadsOrTails.algo.ts:63",
     "pc": [
       228,
       229,
@@ -978,616 +888,982 @@
     ]
   },
   {
-    "teal": 232,
-    "source": "contracts/HeadsOrTails.algo.ts:51",
+    "teal": 222,
+    "source": "contracts/HeadsOrTails.algo.ts:63",
     "pc": [
-      231,
-      232
+      231
     ]
   },
   {
-    "teal": 233,
-    "source": "contracts/HeadsOrTails.algo.ts:51",
+    "teal": 223,
+    "source": "contracts/HeadsOrTails.algo.ts:63",
     "pc": [
+      232,
       233,
       234
     ]
   },
   {
-    "teal": 234,
-    "source": "contracts/HeadsOrTails.algo.ts:41",
+    "teal": 227,
+    "source": "contracts/HeadsOrTails.algo.ts:64",
     "pc": [
-      235,
-      236
+      235
     ]
   },
   {
-    "teal": 235,
-    "source": "contracts/HeadsOrTails.algo.ts:41",
+    "teal": 228,
+    "source": "contracts/HeadsOrTails.algo.ts:64",
     "pc": [
+      236,
       237
     ]
   },
   {
-    "teal": 238,
-    "source": "contracts/HeadsOrTails.algo.ts:41",
-    "errorMessage": "box value does not exist: this.game(this.txn.sender).value",
+    "teal": 229,
+    "source": "contracts/HeadsOrTails.algo.ts:64",
     "pc": [
-      238
+      238,
+      239
     ]
   },
   {
-    "teal": 239,
-    "source": "contracts/HeadsOrTails.algo.ts:51",
+    "teal": 230,
+    "source": "contracts/HeadsOrTails.algo.ts:64",
     "pc": [
-      239,
       240
     ]
   },
   {
-    "teal": 240,
-    "source": "contracts/HeadsOrTails.algo.ts:51",
+    "teal": 231,
+    "source": "contracts/HeadsOrTails.algo.ts:64",
     "pc": [
       241,
       242
     ]
   },
   {
-    "teal": 241,
-    "source": "contracts/HeadsOrTails.algo.ts:51",
+    "teal": 232,
+    "source": "contracts/HeadsOrTails.algo.ts:64",
     "pc": [
-      243,
-      244,
-      245
+      243
     ]
   },
   {
-    "teal": 242,
-    "source": "contracts/HeadsOrTails.algo.ts:51",
+    "teal": 233,
+    "source": "contracts/HeadsOrTails.algo.ts:64",
     "pc": [
-      246,
-      247
+      244
     ]
   },
   {
-    "teal": 243,
-    "source": "contracts/HeadsOrTails.algo.ts:51",
+    "teal": 234,
+    "source": "contracts/HeadsOrTails.algo.ts:64",
     "pc": [
-      248,
-      249
+      245,
+      246
     ]
   },
   {
-    "teal": 244,
-    "source": "contracts/HeadsOrTails.algo.ts:51",
+    "teal": 235,
+    "source": "contracts/HeadsOrTails.algo.ts:64",
     "pc": [
-      250,
-      251
+      247,
+      248
     ]
   },
   {
-    "teal": 248,
-    "source": "contracts/HeadsOrTails.algo.ts:53",
+    "teal": 236,
+    "source": "contracts/HeadsOrTails.algo.ts:64",
     "pc": [
-      252,
+      249,
+      250
+    ]
+  },
+  {
+    "teal": 237,
+    "source": "contracts/HeadsOrTails.algo.ts:64",
+    "pc": [
+      251,
+      252
+    ]
+  },
+  {
+    "teal": 238,
+    "source": "contracts/HeadsOrTails.algo.ts:64",
+    "pc": [
       253
     ]
   },
   {
-    "teal": 251,
-    "source": "contracts/HeadsOrTails.algo.ts:53",
-    "errorMessage": "the vrf must be verified",
+    "teal": 239,
+    "source": "contracts/HeadsOrTails.algo.ts:63",
     "pc": [
-      254
-    ]
-  },
-  {
-    "teal": 255,
-    "source": "contracts/HeadsOrTails.algo.ts:56",
-    "pc": [
+      254,
       255,
       256
     ]
   },
   {
-    "teal": 256,
-    "source": "contracts/HeadsOrTails.algo.ts:56",
+    "teal": 244,
+    "source": "contracts/HeadsOrTails.algo.ts:67",
     "pc": [
-      257
-    ]
-  },
-  {
-    "teal": 257,
-    "source": "contracts/HeadsOrTails.algo.ts:56",
-    "pc": [
+      257,
       258
     ]
   },
   {
-    "teal": 258,
-    "source": "contracts/HeadsOrTails.algo.ts:56",
+    "teal": 245,
+    "source": "contracts/HeadsOrTails.algo.ts:67",
     "pc": [
       259,
       260
     ]
   },
   {
-    "teal": 262,
-    "source": "contracts/HeadsOrTails.algo.ts:58",
+    "teal": 246,
+    "source": "contracts/HeadsOrTails.algo.ts:57",
     "pc": [
       261,
       262
     ]
   },
   {
-    "teal": 263,
-    "source": "contracts/HeadsOrTails.algo.ts:58",
+    "teal": 247,
+    "source": "contracts/HeadsOrTails.algo.ts:57",
     "pc": [
       263
     ]
   },
   {
-    "teal": 264,
-    "source": "contracts/HeadsOrTails.algo.ts:58",
+    "teal": 250,
+    "source": "contracts/HeadsOrTails.algo.ts:57",
+    "errorMessage": "box value does not exist: this.game(this.txn.sender).value",
     "pc": [
-      264,
+      264
+    ]
+  },
+  {
+    "teal": 251,
+    "source": "contracts/HeadsOrTails.algo.ts:67",
+    "pc": [
       265,
       266
     ]
   },
   {
-    "teal": 265,
-    "source": "contracts/HeadsOrTails.algo.ts:41",
+    "teal": 252,
+    "source": "contracts/HeadsOrTails.algo.ts:67",
     "pc": [
       267,
       268
     ]
   },
   {
-    "teal": 266,
-    "source": "contracts/HeadsOrTails.algo.ts:41",
+    "teal": 253,
+    "source": "contracts/HeadsOrTails.algo.ts:67",
     "pc": [
-      269
+      269,
+      270,
+      271
     ]
   },
   {
-    "teal": 269,
-    "source": "contracts/HeadsOrTails.algo.ts:41",
-    "errorMessage": "box value does not exist: this.game(this.txn.sender).value",
+    "teal": 254,
+    "source": "contracts/HeadsOrTails.algo.ts:67",
     "pc": [
-      270
+      272,
+      273
     ]
   },
   {
-    "teal": 270,
-    "source": "contracts/HeadsOrTails.algo.ts:58",
+    "teal": 255,
+    "source": "contracts/HeadsOrTails.algo.ts:67",
     "pc": [
-      271,
-      272
-    ]
-  },
-  {
-    "teal": 271,
-    "source": "contracts/HeadsOrTails.algo.ts:58",
-    "pc": [
-      273,
-      274
-    ]
-  },
-  {
-    "teal": 272,
-    "source": "contracts/HeadsOrTails.algo.ts:58",
-    "pc": [
+      274,
       275
     ]
   },
   {
-    "teal": 273,
-    "source": "contracts/HeadsOrTails.algo.ts:58",
+    "teal": 256,
+    "source": "contracts/HeadsOrTails.algo.ts:67",
     "pc": [
-      276
-    ]
-  },
-  {
-    "teal": 274,
-    "source": "contracts/HeadsOrTails.algo.ts:58",
-    "pc": [
+      276,
       277
     ]
   },
   {
-    "teal": 277,
-    "source": "contracts/HeadsOrTails.algo.ts:58",
+    "teal": 260,
+    "source": "contracts/HeadsOrTails.algo.ts:69",
     "pc": [
-      278
+      278,
+      279
     ]
   },
   {
-    "teal": 278,
-    "source": "contracts/HeadsOrTails.algo.ts:58",
+    "teal": 263,
+    "source": "contracts/HeadsOrTails.algo.ts:69",
+    "errorMessage": "the vrf must be verified",
     "pc": [
-      279,
-      280,
-      281
+      280
     ]
   },
   {
-    "teal": 279,
-    "source": "contracts/HeadsOrTails.algo.ts:58",
+    "teal": 267,
+    "source": "contracts/HeadsOrTails.algo.ts:72",
     "pc": [
-      282,
+      281,
+      282
+    ]
+  },
+  {
+    "teal": 268,
+    "source": "contracts/HeadsOrTails.algo.ts:72",
+    "pc": [
       283
     ]
   },
   {
-    "teal": 280,
-    "source": "contracts/HeadsOrTails.algo.ts:58",
+    "teal": 269,
+    "source": "contracts/HeadsOrTails.algo.ts:72",
     "pc": [
       284
     ]
   },
   {
-    "teal": 281,
-    "source": "contracts/HeadsOrTails.algo.ts:58",
+    "teal": 270,
+    "source": "contracts/HeadsOrTails.algo.ts:72",
     "pc": [
-      285
+      285,
+      286
     ]
   },
   {
-    "teal": 282,
-    "source": "contracts/HeadsOrTails.algo.ts:58",
+    "teal": 274,
+    "source": "contracts/HeadsOrTails.algo.ts:74",
     "pc": [
-      286,
       287,
       288
     ]
   },
   {
-    "teal": 283,
-    "source": "contracts/HeadsOrTails.algo.ts:41",
+    "teal": 275,
+    "source": "contracts/HeadsOrTails.algo.ts:74",
     "pc": [
-      289,
-      290
+      289
     ]
   },
   {
-    "teal": 284,
-    "source": "contracts/HeadsOrTails.algo.ts:41",
+    "teal": 276,
+    "source": "contracts/HeadsOrTails.algo.ts:74",
     "pc": [
-      291
-    ]
-  },
-  {
-    "teal": 287,
-    "source": "contracts/HeadsOrTails.algo.ts:41",
-    "errorMessage": "box value does not exist: this.game(this.txn.sender).value",
-    "pc": [
+      290,
+      291,
       292
     ]
   },
   {
-    "teal": 288,
-    "source": "contracts/HeadsOrTails.algo.ts:58",
+    "teal": 277,
+    "source": "contracts/HeadsOrTails.algo.ts:57",
     "pc": [
       293,
       294
     ]
   },
   {
-    "teal": 289,
-    "source": "contracts/HeadsOrTails.algo.ts:58",
+    "teal": 278,
+    "source": "contracts/HeadsOrTails.algo.ts:57",
     "pc": [
-      295,
+      295
+    ]
+  },
+  {
+    "teal": 281,
+    "source": "contracts/HeadsOrTails.algo.ts:57",
+    "errorMessage": "box value does not exist: this.game(this.txn.sender).value",
+    "pc": [
       296
     ]
   },
   {
-    "teal": 290,
-    "source": "contracts/HeadsOrTails.algo.ts:58",
+    "teal": 282,
+    "source": "contracts/HeadsOrTails.algo.ts:74",
     "pc": [
-      297
-    ]
-  },
-  {
-    "teal": 291,
-    "source": "contracts/HeadsOrTails.algo.ts:58",
-    "pc": [
+      297,
       298
     ]
   },
   {
-    "teal": 292,
-    "source": "contracts/HeadsOrTails.algo.ts:58",
+    "teal": 283,
+    "source": "contracts/HeadsOrTails.algo.ts:74",
     "pc": [
-      299
-    ]
-  },
-  {
-    "teal": 293,
-    "source": "contracts/HeadsOrTails.algo.ts:58",
-    "pc": [
+      299,
       300
     ]
   },
   {
-    "teal": 296,
-    "source": "contracts/HeadsOrTails.algo.ts:58",
+    "teal": 284,
+    "source": "contracts/HeadsOrTails.algo.ts:74",
     "pc": [
       301
     ]
   },
   {
-    "teal": 299,
-    "source": "contracts/HeadsOrTails.algo.ts:58",
+    "teal": 285,
+    "source": "contracts/HeadsOrTails.algo.ts:74",
     "pc": [
-      302,
+      302
+    ]
+  },
+  {
+    "teal": 286,
+    "source": "contracts/HeadsOrTails.algo.ts:74",
+    "pc": [
       303
     ]
   },
   {
-    "teal": 308,
-    "source": "contracts/HeadsOrTails.algo.ts:61",
+    "teal": 289,
+    "source": "contracts/HeadsOrTails.algo.ts:74",
     "pc": [
       304
     ]
   },
   {
-    "teal": 309,
-    "source": "contracts/HeadsOrTails.algo.ts:61",
+    "teal": 290,
+    "source": "contracts/HeadsOrTails.algo.ts:74",
     "pc": [
-      305
-    ]
-  },
-  {
-    "teal": 310,
-    "source": "contracts/HeadsOrTails.algo.ts:61",
-    "pc": [
+      305,
       306,
       307
     ]
   },
   {
-    "teal": 314,
-    "source": "contracts/HeadsOrTails.algo.ts:62",
+    "teal": 291,
+    "source": "contracts/HeadsOrTails.algo.ts:74",
     "pc": [
       308,
       309
     ]
   },
   {
-    "teal": 315,
-    "source": "contracts/HeadsOrTails.algo.ts:62",
+    "teal": 292,
+    "source": "contracts/HeadsOrTails.algo.ts:74",
     "pc": [
-      310,
+      310
+    ]
+  },
+  {
+    "teal": 293,
+    "source": "contracts/HeadsOrTails.algo.ts:74",
+    "pc": [
       311
     ]
   },
   {
-    "teal": 319,
-    "source": "contracts/HeadsOrTails.algo.ts:4",
+    "teal": 294,
+    "source": "contracts/HeadsOrTails.algo.ts:74",
     "pc": [
-      312
-    ]
-  },
-  {
-    "teal": 320,
-    "source": "contracts/HeadsOrTails.algo.ts:63",
-    "pc": [
+      312,
       313,
       314
     ]
   },
   {
-    "teal": 324,
-    "source": "contracts/HeadsOrTails.algo.ts:64",
+    "teal": 295,
+    "source": "contracts/HeadsOrTails.algo.ts:57",
     "pc": [
-      315
+      315,
+      316
     ]
   },
   {
-    "teal": 325,
-    "source": "contracts/HeadsOrTails.algo.ts:64",
+    "teal": 296,
+    "source": "contracts/HeadsOrTails.algo.ts:57",
     "pc": [
-      316,
       317
     ]
   },
   {
-    "teal": 329,
-    "source": "contracts/HeadsOrTails.algo.ts:65",
+    "teal": 299,
+    "source": "contracts/HeadsOrTails.algo.ts:57",
+    "errorMessage": "box value does not exist: this.game(this.txn.sender).value",
     "pc": [
-      318,
+      318
+    ]
+  },
+  {
+    "teal": 300,
+    "source": "contracts/HeadsOrTails.algo.ts:74",
+    "pc": [
       319,
-      320,
+      320
+    ]
+  },
+  {
+    "teal": 301,
+    "source": "contracts/HeadsOrTails.algo.ts:74",
+    "pc": [
       321,
-      322,
-      323,
-      324,
-      325,
-      326,
-      327,
+      322
+    ]
+  },
+  {
+    "teal": 302,
+    "source": "contracts/HeadsOrTails.algo.ts:74",
+    "pc": [
+      323
+    ]
+  },
+  {
+    "teal": 303,
+    "source": "contracts/HeadsOrTails.algo.ts:74",
+    "pc": [
+      324
+    ]
+  },
+  {
+    "teal": 304,
+    "source": "contracts/HeadsOrTails.algo.ts:74",
+    "pc": [
+      325
+    ]
+  },
+  {
+    "teal": 305,
+    "source": "contracts/HeadsOrTails.algo.ts:74",
+    "pc": [
+      326
+    ]
+  },
+  {
+    "teal": 308,
+    "source": "contracts/HeadsOrTails.algo.ts:74",
+    "pc": [
+      327
+    ]
+  },
+  {
+    "teal": 311,
+    "source": "contracts/HeadsOrTails.algo.ts:74",
+    "pc": [
       328,
-      329,
-      330,
-      331,
+      329
+    ]
+  },
+  {
+    "teal": 320,
+    "source": "contracts/HeadsOrTails.algo.ts:77",
+    "pc": [
+      330
+    ]
+  },
+  {
+    "teal": 321,
+    "source": "contracts/HeadsOrTails.algo.ts:77",
+    "pc": [
+      331
+    ]
+  },
+  {
+    "teal": 322,
+    "source": "contracts/HeadsOrTails.algo.ts:77",
+    "pc": [
       332,
-      333,
+      333
+    ]
+  },
+  {
+    "teal": 326,
+    "source": "contracts/HeadsOrTails.algo.ts:78",
+    "pc": [
       334,
-      335,
+      335
+    ]
+  },
+  {
+    "teal": 327,
+    "source": "contracts/HeadsOrTails.algo.ts:78",
+    "pc": [
       336,
-      337,
-      338,
+      337
+    ]
+  },
+  {
+    "teal": 331,
+    "source": "contracts/HeadsOrTails.algo.ts:4",
+    "pc": [
+      338
+    ]
+  },
+  {
+    "teal": 332,
+    "source": "contracts/HeadsOrTails.algo.ts:79",
+    "pc": [
       339,
-      340,
-      341,
-      342
+      340
     ]
   },
   {
-    "teal": 330,
-    "source": "contracts/HeadsOrTails.algo.ts:65",
+    "teal": 336,
+    "source": "contracts/HeadsOrTails.algo.ts:80",
     "pc": [
-      343,
-      344
-    ]
-  },
-  {
-    "teal": 333,
-    "source": "contracts/HeadsOrTails.algo.ts:61",
-    "pc": [
-      345
+      341
     ]
   },
   {
     "teal": 337,
-    "source": "contracts/HeadsOrTails.algo.ts:69",
+    "source": "contracts/HeadsOrTails.algo.ts:80",
     "pc": [
-      346,
-      347
+      342,
+      343
     ]
   },
   {
-    "teal": 338,
-    "source": "contracts/HeadsOrTails.algo.ts:69",
+    "teal": 341,
+    "source": "contracts/HeadsOrTails.algo.ts:81",
     "pc": [
-      348
+      344
     ]
   },
   {
     "teal": 342,
-    "source": "contracts/HeadsOrTails.algo.ts:71",
+    "source": "contracts/HeadsOrTails.algo.ts:81",
     "pc": [
-      349,
-      350
+      345,
+      346
     ]
   },
   {
     "teal": 345,
-    "source": "contracts/HeadsOrTails.algo.ts:40",
+    "source": "contracts/HeadsOrTails.algo.ts:77",
+    "pc": [
+      347
+    ]
+  },
+  {
+    "teal": 349,
+    "source": "contracts/HeadsOrTails.algo.ts:85",
+    "pc": [
+      348,
+      349
+    ]
+  },
+  {
+    "teal": 350,
+    "source": "contracts/HeadsOrTails.algo.ts:85",
+    "pc": [
+      350
+    ]
+  },
+  {
+    "teal": 354,
+    "source": "contracts/HeadsOrTails.algo.ts:87",
     "pc": [
       351,
       352
     ]
   },
   {
-    "teal": 348,
-    "source": "contracts/HeadsOrTails.algo.ts:40",
+    "teal": 357,
+    "source": "contracts/HeadsOrTails.algo.ts:56",
     "pc": [
       353,
       354
     ]
   },
   {
-    "teal": 349,
-    "source": "contracts/HeadsOrTails.algo.ts:40",
+    "teal": 360,
+    "source": "contracts/HeadsOrTails.algo.ts:56",
     "pc": [
-      355
-    ]
-  },
-  {
-    "teal": 352,
-    "source": "contracts/HeadsOrTails.algo.ts:14",
-    "pc": [
+      355,
       356
     ]
   },
   {
-    "teal": 353,
-    "source": "contracts/HeadsOrTails.algo.ts:14",
+    "teal": 361,
+    "source": "contracts/HeadsOrTails.algo.ts:56",
     "pc": [
       357
     ]
   },
   {
-    "teal": 356,
-    "source": "contracts/HeadsOrTails.algo.ts:14",
+    "teal": 366,
+    "source": "contracts/HeadsOrTails.algo.ts:95",
     "pc": [
       358,
       359,
-      360,
-      361,
-      362,
-      363
+      360
     ]
   },
   {
-    "teal": 357,
-    "source": "contracts/HeadsOrTails.algo.ts:14",
+    "teal": 367,
+    "source": "contracts/HeadsOrTails.algo.ts:95",
     "pc": [
+      361
+    ]
+  },
+  {
+    "teal": 368,
+    "source": "contracts/HeadsOrTails.algo.ts:95",
+    "pc": [
+      362
+    ]
+  },
+  {
+    "teal": 375,
+    "source": "contracts/HeadsOrTails.algo.ts:95",
+    "pc": [
+      363,
       364,
-      365,
+      365
+    ]
+  },
+  {
+    "teal": 378,
+    "source": "contracts/HeadsOrTails.algo.ts:95",
+    "pc": [
       366
     ]
   },
   {
-    "teal": 358,
-    "source": "contracts/HeadsOrTails.algo.ts:14",
+    "teal": 382,
+    "source": "contracts/HeadsOrTails.algo.ts:96",
     "pc": [
       367,
-      368,
+      368
+    ]
+  },
+  {
+    "teal": 383,
+    "source": "contracts/HeadsOrTails.algo.ts:96",
+    "pc": [
       369,
       370
     ]
   },
   {
-    "teal": 361,
-    "source": "contracts/HeadsOrTails.algo.ts:14",
-    "errorMessage": "this contract does not implement the given ABI method for create NoOp",
+    "teal": 387,
+    "source": "contracts/HeadsOrTails.algo.ts:96",
     "pc": [
-      371
+      371,
+      372
     ]
   },
   {
-    "teal": 364,
-    "source": "contracts/HeadsOrTails.algo.ts:14",
+    "teal": 388,
+    "source": "contracts/HeadsOrTails.algo.ts:96",
     "pc": [
-      372,
-      373,
-      374,
+      373
+    ]
+  },
+  {
+    "teal": 391,
+    "source": "contracts/HeadsOrTails.algo.ts:96",
+    "errorMessage": "box value does not exist: this.game(this.txn.sender).value",
+    "pc": [
+      374
+    ]
+  },
+  {
+    "teal": 392,
+    "source": "contracts/HeadsOrTails.algo.ts:98",
+    "pc": [
       375,
-      376,
-      377
+      376
     ]
   },
   {
-    "teal": 365,
-    "source": "contracts/HeadsOrTails.algo.ts:14",
+    "teal": 393,
+    "source": "contracts/HeadsOrTails.algo.ts:98",
     "pc": [
-      378,
+      377,
+      378
+    ]
+  },
+  {
+    "teal": 394,
+    "source": "contracts/HeadsOrTails.algo.ts:98",
+    "pc": [
       379,
       380,
-      381,
-      382,
-      383
+      381
     ]
   },
   {
-    "teal": 366,
-    "source": "contracts/HeadsOrTails.algo.ts:14",
+    "teal": 395,
+    "source": "contracts/HeadsOrTails.algo.ts:98",
     "pc": [
-      384,
+      382
+    ]
+  },
+  {
+    "teal": 396,
+    "source": "contracts/HeadsOrTails.algo.ts:98",
+    "pc": [
+      383,
+      384
+    ]
+  },
+  {
+    "teal": 397,
+    "source": "contracts/HeadsOrTails.algo.ts:98",
+    "pc": [
       385,
-      386
+      386,
+      387
     ]
   },
   {
-    "teal": 367,
-    "source": "contracts/HeadsOrTails.algo.ts:14",
+    "teal": 398,
+    "source": "contracts/HeadsOrTails.algo.ts:98",
     "pc": [
-      387,
-      388,
-      389,
-      390,
-      391,
+      388
+    ]
+  },
+  {
+    "teal": 399,
+    "source": "contracts/HeadsOrTails.algo.ts:98",
+    "pc": [
+      389
+    ]
+  },
+  {
+    "teal": 400,
+    "source": "contracts/HeadsOrTails.algo.ts:98",
+    "pc": [
+      390
+    ]
+  },
+  {
+    "teal": 409,
+    "source": "contracts/HeadsOrTails.algo.ts:101",
+    "pc": [
+      391
+    ]
+  },
+  {
+    "teal": 410,
+    "source": "contracts/HeadsOrTails.algo.ts:101",
+    "pc": [
       392
     ]
   },
   {
-    "teal": 370,
+    "teal": 411,
+    "source": "contracts/HeadsOrTails.algo.ts:101",
+    "pc": [
+      393,
+      394
+    ]
+  },
+  {
+    "teal": 415,
+    "source": "contracts/HeadsOrTails.algo.ts:102",
+    "pc": [
+      395,
+      396
+    ]
+  },
+  {
+    "teal": 416,
+    "source": "contracts/HeadsOrTails.algo.ts:102",
+    "pc": [
+      397,
+      398
+    ]
+  },
+  {
+    "teal": 420,
+    "source": "contracts/HeadsOrTails.algo.ts:4",
+    "pc": [
+      399
+    ]
+  },
+  {
+    "teal": 421,
+    "source": "contracts/HeadsOrTails.algo.ts:103",
+    "pc": [
+      400,
+      401
+    ]
+  },
+  {
+    "teal": 425,
+    "source": "contracts/HeadsOrTails.algo.ts:104",
+    "pc": [
+      402
+    ]
+  },
+  {
+    "teal": 426,
+    "source": "contracts/HeadsOrTails.algo.ts:104",
+    "pc": [
+      403,
+      404
+    ]
+  },
+  {
+    "teal": 430,
+    "source": "contracts/HeadsOrTails.algo.ts:105",
+    "pc": [
+      405
+    ]
+  },
+  {
+    "teal": 431,
+    "source": "contracts/HeadsOrTails.algo.ts:105",
+    "pc": [
+      406,
+      407
+    ]
+  },
+  {
+    "teal": 434,
+    "source": "contracts/HeadsOrTails.algo.ts:101",
+    "pc": [
+      408
+    ]
+  },
+  {
+    "teal": 438,
+    "source": "contracts/HeadsOrTails.algo.ts:109",
+    "pc": [
+      409,
+      410
+    ]
+  },
+  {
+    "teal": 439,
+    "source": "contracts/HeadsOrTails.algo.ts:109",
+    "pc": [
+      411
+    ]
+  },
+  {
+    "teal": 440,
+    "source": "contracts/HeadsOrTails.algo.ts:95",
+    "pc": [
+      412
+    ]
+  },
+  {
+    "teal": 443,
+    "source": "contracts/HeadsOrTails.algo.ts:14",
+    "pc": [
+      413
+    ]
+  },
+  {
+    "teal": 444,
+    "source": "contracts/HeadsOrTails.algo.ts:14",
+    "pc": [
+      414
+    ]
+  },
+  {
+    "teal": 447,
+    "source": "contracts/HeadsOrTails.algo.ts:14",
+    "pc": [
+      415,
+      416,
+      417,
+      418,
+      419,
+      420
+    ]
+  },
+  {
+    "teal": 448,
+    "source": "contracts/HeadsOrTails.algo.ts:14",
+    "pc": [
+      421,
+      422,
+      423
+    ]
+  },
+  {
+    "teal": 449,
+    "source": "contracts/HeadsOrTails.algo.ts:14",
+    "pc": [
+      424,
+      425,
+      426,
+      427
+    ]
+  },
+  {
+    "teal": 452,
+    "source": "contracts/HeadsOrTails.algo.ts:14",
+    "errorMessage": "this contract does not implement the given ABI method for create NoOp",
+    "pc": [
+      428
+    ]
+  },
+  {
+    "teal": 455,
+    "source": "contracts/HeadsOrTails.algo.ts:14",
+    "pc": [
+      429,
+      430,
+      431,
+      432,
+      433,
+      434
+    ]
+  },
+  {
+    "teal": 456,
+    "source": "contracts/HeadsOrTails.algo.ts:14",
+    "pc": [
+      435,
+      436,
+      437,
+      438,
+      439,
+      440
+    ]
+  },
+  {
+    "teal": 457,
+    "source": "contracts/HeadsOrTails.algo.ts:14",
+    "pc": [
+      441,
+      442,
+      443,
+      444,
+      445,
+      446
+    ]
+  },
+  {
+    "teal": 458,
+    "source": "contracts/HeadsOrTails.algo.ts:14",
+    "pc": [
+      447,
+      448,
+      449
+    ]
+  },
+  {
+    "teal": 459,
+    "source": "contracts/HeadsOrTails.algo.ts:14",
+    "pc": [
+      450,
+      451,
+      452,
+      453,
+      454,
+      455,
+      456,
+      457
+    ]
+  },
+  {
+    "teal": 462,
     "source": "contracts/HeadsOrTails.algo.ts:14",
     "errorMessage": "this contract does not implement the given ABI method for call NoOp",
     "pc": [
-      393
+      458
     ]
   }
 ]

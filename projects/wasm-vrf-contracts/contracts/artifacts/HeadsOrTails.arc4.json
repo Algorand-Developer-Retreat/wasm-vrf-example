@@ -4,34 +4,50 @@
   "methods": [
     {
       "name": "createGame",
+      "desc": "Create a new HeadsOrTails game",
       "args": [
         {
           "name": "boxFeeTxn",
-          "type": "pay"
+          "type": "pay",
+          "desc": "PayTxn covering the mbr increase"
         },
         {
           "name": "pk",
-          "type": "byte[32]"
+          "type": "byte[32]",
+          "desc": "public key of the generated vrf keypair"
         },
         {
           "name": "heads",
-          "type": "bool"
+          "type": "bool",
+          "desc": "does user think the user will be heads?"
         }
       ],
       "returns": {
-        "type": "uint64"
+        "type": "uint64",
+        "desc": "uint64 the commitmentRound when participant can complete the game"
       }
     },
     {
       "name": "completeGame",
+      "desc": "Completes a game and refunds the user their box storage fees",
       "args": [
         {
           "name": "proof",
-          "type": "byte[80]"
+          "type": "byte[80]",
+          "desc": "the VRF proof signed by the participant's private key (using the block seed at commitmentRound)"
         }
       ],
       "returns": {
-        "type": "bool"
+        "type": "bool",
+        "desc": "boolean if the user won or not"
+      }
+    },
+    {
+      "name": "cancelGame",
+      "desc": "Cancels a game and refunds the user their box storage fees",
+      "args": [],
+      "returns": {
+        "type": "void"
       }
     },
     {

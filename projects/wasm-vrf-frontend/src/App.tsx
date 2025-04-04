@@ -21,8 +21,20 @@ algokit.Config.configure({
 function App() {
   return (
     <WalletProvider manager={manager}>
-      <WalletMenu />
-      <CoinFlip algorand={algorandClient} />
+      <section className="hero is-info">
+        <div className="container">
+          <h1 className="title">WASM VRF Demo</h1>
+          <p className="subtitle">
+            Verifable randomness <strong>without reliance</strong>!
+          </p>
+        </div>
+      </section>
+      <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", margin: "5px" }}>
+        <div style={{ marginTop: "5px", marginBottom: "5px" }}>
+          <WalletMenu />
+        </div>
+        <CoinFlip algorand={algorandClient} />
+      </div>
     </WalletProvider>
   );
 }

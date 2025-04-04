@@ -4,6 +4,7 @@ import VRF from "../webvrf";
 import * as algokit from "@algorandfoundation/algokit-utils";
 
 import { useWallet } from "@txnlab/use-wallet-react";
+import { Coin } from "./Coin";
 
 const APP_ID = import.meta.env.VITE_COIN_FLIP_APP_ID;
 const BOX_STORAGE_COST = 31700;
@@ -18,10 +19,7 @@ type CoinFlipGame = {
   pk: Uint8Array;
 };
 
-const getCoinFlipGame = async (
-  appClient: HeadsOrTailsClient,
-  address: string
-): Promise<CoinFlipGame | undefined> => {
+const getCoinFlipGame = async (appClient: HeadsOrTailsClient, address: string): Promise<CoinFlipGame | undefined> => {
   try {
     const r = await appClient.state.box.game.value(address);
     return r;
@@ -40,12 +38,8 @@ export const CoinFlip = ({ algorand }: CoinFlipProps) => {
   const [error, setError] = useState<string | null>(null);
 
   // vrf keypair
-  const [publicKey, setPublicKey] = useState<Uint8Array<ArrayBuffer> | null>(
-    null
-  );
-  const [secretKey, setSecretKey] = useState<Uint8Array<ArrayBuffer> | null>(
-    null
-  );
+  const [publicKey, setPublicKey] = useState<Uint8Array<ArrayBuffer> | null>(null);
+  const [secretKey, setSecretKey] = useState<Uint8Array<ArrayBuffer> | null>(null);
   // game info
   const [commitmentRound, setCommitmentRound] = useState<bigint | null>(null);
   const [gameResult, setGameResult] = useState<boolean | null>(null);
@@ -158,9 +152,7 @@ export const CoinFlip = ({ algorand }: CoinFlipProps) => {
       const { lastRound } = await algod.status().do();
 
       if (commitmentRound >= lastRound - 1002n) {
-        throw Error(
-          "cancel window has not yet elapsed, you should complete the game"
-        );
+        throw Error("cancel window has not yet elapsed, you should complete the game");
       }
 
       await appClient.send.cancelGame({
@@ -221,64 +213,48 @@ export const CoinFlip = ({ algorand }: CoinFlipProps) => {
   }, [activeAddress, algorand]);
 
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        maxWidth: "600px",
-        padding: "20px",
-        border: "2px solid gainsboro",
-      }}
-    >
-      <div>
-        <h1>WebAssembly VRF Demo</h1>
-        <h3>AppID: {APP_ID}</h3>
+    <div className="card container">
+      <header className="card-header">
+        <p className="card-header-title">Coin Flip (AppID: {APP_ID})</p>
+      </header>
+
+      <div className={`card-content ${isLoading ? "is-skeleton" : ""}`}>
         {publicKey && secretKey && (
           <>
-            <p style={{ wordWrap: "break-word" }}>
-              pk: {btoa(publicKey.toString())}
-            </p>
-            <p style={{ wordWrap: "break-word" }}>
-              sk: {btoa(secretKey.toString())}
-            </p>
+            <label className="label">Public Key</label>
+            <textarea className="textarea" value={btoa(publicKey.toString())} disabled></textarea>
+            <label className="label">Private Key</label>
+            <textarea className="textarea" value={btoa(secretKey.toString())} disabled></textarea>
           </>
         )}
+        <div className="container" style={{ padding: "5px" }}>
+          <Coin headsImg="heads.jpg" tailsImg="tails.jpg" result={gameResult ? "heads" : gameResult === false ? "tails" : undefined} />
+        </div>
 
-        {isLoading ? (
-          <p>Loading...</p>
-        ) : (
-          <div style={{ display: "block-inline" }}>
-            {commitmentRound && <p>Commitment Round: {commitmentRound}</p>}
-            <button
-              onClick={createGame}
-              disabled={isLoading || commitmentRound !== null}
-            >
+        <div style={{ display: "block-inline" }}>
+          {commitmentRound && (
+            <div>
+              <p>Commitment Round: {commitmentRound}</p>
+              <p>You bet: HEADS</p>
+            </div>
+          )}
+          <div className="is-flex is-flex-direction-column" style={{ gap: "5px" }}>
+            <button className="button is-primary" onClick={createGame} disabled={isLoading || commitmentRound !== null}>
               Create Commitment
             </button>
 
-            <button
-              onClick={completeGame}
-              disabled={isLoading || commitmentRound === null}
-            >
+            <button className="button is-primary" onClick={completeGame} disabled={isLoading || commitmentRound === null}>
               Complete Game
             </button>
 
-            <button
-              onClick={cancelGame}
-              disabled={isLoading || commitmentRound === null}
-            >
+            <button className="button is-primary" onClick={cancelGame} disabled={isLoading || commitmentRound === null}>
               Cancel Game
             </button>
-
-            {gameResult !== null && (
-              <p style={{ fontWeight: "bold" }}>
-                You {gameResult ? "won" : "lost"}
-              </p>
-            )}
-            {error && <p style={{ color: "red" }}>{error}</p>}
           </div>
-        )}
+
+          {gameResult !== null && <p style={{ fontWeight: "bold" }}>You {gameResult ? "won" : "lost"}</p>}
+          {error && <p style={{ color: "red" }}>{error}</p>}
+        </div>
       </div>
     </div>
   );

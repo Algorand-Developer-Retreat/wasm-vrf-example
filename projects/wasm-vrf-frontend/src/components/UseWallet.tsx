@@ -17,8 +17,7 @@ export const WalletMenu = () => {
 const WalletList = ({ wallets }: { wallets: Wallet[] }) => {
   return (
     <div className="wallet-list">
-      <h3>Connect Wallet</h3>
-      <div className="wallet-options">
+      <div className="is-flex" style={{ gap: "5px" }}>
         {wallets.map((wallet) => (
           <WalletOption key={wallet.id} wallet={wallet} />
         ))}
@@ -42,17 +41,8 @@ const WalletOption = ({ wallet }: { wallet: Wallet }) => {
   };
 
   return (
-    <button
-      onClick={handleConnect}
-      disabled={connecting}
-      className="wallet-option"
-    >
-      <img
-        src={wallet.metadata.icon}
-        alt={wallet.metadata.name}
-        width={32}
-        height={32}
-      />
+    <button className="button" onClick={handleConnect} disabled={connecting}>
+      <img src={wallet.metadata.icon} alt={wallet.metadata.name} width={32} height={32} />
       <span>{wallet.metadata.name}</span>
     </button>
   );
@@ -63,20 +53,12 @@ const ConnectedWallet = ({ wallet }: { wallet: Wallet }) => {
     <div style={{ display: "flex", gap: "1em" }}>
       {/* Wallet header */}
       <div>
-        <img
-          src={wallet.metadata.icon}
-          alt={wallet.metadata.name}
-          width={32}
-          height={32}
-        />
+        <img src={wallet.metadata.icon} alt={wallet.metadata.name} width={32} height={32} />
       </div>
 
       {/* Account selector */}
       {wallet.accounts.length > 1 && (
-        <select
-          value={wallet.activeAccount?.address}
-          onChange={(e) => wallet.setActiveAccount(e.target.value)}
-        >
+        <select value={wallet.activeAccount?.address} onChange={(e) => wallet.setActiveAccount(e.target.value)}>
           {wallet.accounts.map((account) => (
             <option key={account.address} value={account.address}>
               {account.name}
@@ -94,7 +76,9 @@ const ConnectedWallet = ({ wallet }: { wallet: Wallet }) => {
       )}
 
       {/* Disconnect button */}
-      <button onClick={wallet.disconnect}>Disconnect</button>
+      <button className="button" onClick={wallet.disconnect}>
+        Disconnect
+      </button>
     </div>
   );
 };

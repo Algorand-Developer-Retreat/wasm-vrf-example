@@ -4,6 +4,10 @@ An example of generating VRF proofs in a node.js environment using [WebAssembly 
 
 This is just a quick example, maybe someone finds it useful.
 
+There is an app deployed on testnet ID: 736838866
+
+`VITE_COIN_FLIP_APP_ID=736838866 npm run dev`
+
 ## Motivation
 
 Currently the [randomness beacon](https://github.com/appliedblockchain/algorand-randomness-beacon) is a source of random data. The design provides some limitations, creates a dependency on an external service and time constraints (which more time sensitive applications might want to avoid).
@@ -29,6 +33,7 @@ There should be some investigation into alternative methods for the benefit of t
 - [ ] Further documentation
 - [ ] Fix smart contract code, it is lacking security and validation
 - [ ] Make the UI not terrible on the React app 😭
+- [ ] Port `appliedblockchain/libsodium` to run in node.js environments without DOM, not just web (with grzracz implementatio)
 
 ## Credits
 

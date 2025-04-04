@@ -6,9 +6,14 @@ This is just a quick example, maybe someone finds it useful.
 
 There is an app deployed on testnet ID: 736838866
 
-`git clone https://github.com/Algorand-Developer-Retreat/wasm-vrf-example && cd wasm-vrf-example/projects/wasm-vrf-frontend`
-`npm install`
-`VITE_COIN_FLIP_APP_ID=736838866 npm run dev`
+```
+git clone https://github.com/Algorand-Developer-Retreat/wasm-vrf-example
+cd wasm-vrf-example/projects/wasm-vrf-frontend
+npm install
+VITE_COIN_FLIP_APP_ID=736838866 npm run dev
+```
+
+Deployed on Netlify [WASM VRF Example (Netlify)](https://wasm-vrf-example.netlify.app/)
 
 ## Motivation
 
